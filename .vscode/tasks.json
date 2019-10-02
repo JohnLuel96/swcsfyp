@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Water Colour Society Portal",  
+            "command": "explorer",  
+            "windows": {
+                "command": "index.html"
+            },
+            "args": [
+                "index.html"
+            ],
+        }
+
+    ]
+}
