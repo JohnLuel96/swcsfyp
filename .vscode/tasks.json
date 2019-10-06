@@ -2,15 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run Water Colour Society Portal",  
-            "command": "explorer",  
+            "label": "Run Water Colour Society Portal",
+            "command": "Chrome",
             "windows": {
-                "command": "index.html"
+                "command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
             },
             "args": [
-                "index.html"
+                "C:/Users/John Luel/Documents/swcsfyp/portal/web/login_2.html"
             ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
-
     ]
 }
