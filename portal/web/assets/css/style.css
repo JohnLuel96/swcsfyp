@@ -210,7 +210,7 @@ hr {
 }
 
 .bg-theme {
-	background-color: #68dff0;
+	background-color: #258F41;
 }
 
 ul.top-menu > li > .logout {
@@ -232,11 +232,11 @@ ul.top-menu > li > .logout {
     width: 210px;
     height: 100%;
     position: fixed;
-    background: #b9bd95;
+    background: #d7ded9;
 }
 
 #sidebar h5 {
-	color: #f2f2f2;
+	color: #000000;
 	font-weight: 700;
 }
 
@@ -295,7 +295,7 @@ ul.sidebar-menu {
 }
 
 ul.sidebar-menu li ul.sub li{
-    background: #424a5d;
+    background: #258F41;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -308,15 +308,16 @@ ul.sidebar-menu li ul.sub li:last-child{
 
 ul.sidebar-menu li ul.sub li a {
     font-size: 12px;
+    font-weight: bold;
     padding: 6px 0;
-    line-height: 35px;
-    height: 35px;
+    line-height: 30px;
+    height: 30px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    color: #aeb2b7;
+    color: #000000;
 }
 
 ul.sidebar-menu li ul.sub li a:hover {
@@ -350,11 +351,12 @@ ul.sidebar-menu li a span{
 }
 
 ul.sidebar-menu li a{
-    color: #ffffff;
+    color: #000000;
+    font: arial;
     text-decoration: none;
     display: block;
     padding: 15px 0 15px 10px;
-    font-size: 12px;
+    font-size: 15px;
     outline: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -365,7 +367,7 @@ ul.sidebar-menu li a{
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
     background: #258f41;
-    color: #fff;
+    color: #000000;
     display: block;
 
     -webkit-transition: all 0.3s ease;
@@ -382,11 +384,11 @@ ul.sidebar-menu li a i {
 }
 
 ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
-    color: #fff;
+    color: #000000;
 }
 
 ul.sidebar-menu li a.active i {
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -776,13 +778,14 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .ds h3 {
-	color: #ffffff;
+    color: #000000;
+    font-weight: bold;
 	font-size: 16px;
 	padding: 0 10px;
 	line-height: 60px;
 	height: 60px;
 	margin: 0;
-	background: #53d4a9;
+	background: #258F41;
 	text-align: center;
 }
 
@@ -815,18 +818,21 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .ds > .desc p {
-	font-size: 11px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #000000
 }
 
 .ds p > muted {
-	font-size: 9px;
+    font-weight: bold;
+	font-size: 10px;
 	text-transform: uppercase;
 	font-style: italic;
 	color: #666666
 }
 
 .ds a {
-	color: #68dff0;
+	color: #258F41;
 }
 
 /* LINE ICONS CONFIGURATION */
@@ -1029,7 +1035,7 @@ PANELS CONFIGURATIONS
 
 .darkblue-panel {
 	text-align: center;
-	background: #444c57;
+	background: #258F41;
 }
 .darkblue-panel .darkblue-header {
 	background: transparent;
@@ -1056,7 +1062,7 @@ PANELS CONFIGURATIONS
 /*Green Panel*/
 .green-panel {
 	text-align: center;
-	background: #68dff0;
+	background: #258F41;
 }
 .green-panel .green-header {
 	background: #43b1a9;
@@ -1100,7 +1106,7 @@ PANELS CONFIGURATIONS
 }
 
 .white-panel i {
-	color: #68dff0;
+	color: #da4453;
 	padding-right: 4px;
 	font-size: 14px;
 }
@@ -1415,7 +1421,7 @@ PANELS CONFIGURATIONS
 	padding: 0px !important;
 }
 .calendar-month-header {
-	background: #43b1a9;
+	background: #258F41;
 }
 
 /* TODO PANEL */

@@ -5,3 +5,11 @@ For login forms
     #d3e6d8
 
     test
+
+Navigational Bar {
+    #d7ded9
+}
+
+Primary Color For Portal {
+    #258F41
+}

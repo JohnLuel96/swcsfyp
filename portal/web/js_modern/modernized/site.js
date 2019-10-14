@@ -86,5 +86,11 @@ $(document).ready( function() {
       calendars.clndr2.forward();
     }
   });
-
+var editor = new Quill('#editor', {
+    modules: {
+     'toolbar': { container: '#toolbar' },
+     'link-tooltip': true
+   },
+   theme: 'snow',
+ });
 });
