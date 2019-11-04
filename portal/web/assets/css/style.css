@@ -366,7 +366,8 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #258f41;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     color: #000000;
     display: block;
 
@@ -415,8 +416,8 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-    background: #258f41;
-    border-bottom: 1px solid #258f41;
+    background: rgb(66,58,180);
+    background: linear-gradient(90deg, rgba(66,58,180,1) 0%, rgba(127,253,29,1) 60%, rgba(252,176,69,1) 100%);
 }
 
 .wrapper {
